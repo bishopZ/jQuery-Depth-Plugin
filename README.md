@@ -21,5 +21,5 @@ Simple jQuery utility plugin for working with z-indexed elements. Provides three
     $(element).depths(); // [0,0,1,2,3,10000,3]
 
 
-    // returns the highest depth of any of the siblings
+    // returns the next highest depth above any of the siblings
     $(element).nextDepth() // 10001
